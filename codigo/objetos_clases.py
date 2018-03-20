@@ -1,3 +1,4 @@
+
 # Archivo: objetos_clases.py
 # Autor: Javier Garcia Algarra 
 # Fecha: 25 de enero de 2017
@@ -22,17 +23,23 @@ p.cambia_nombre('Juan')
 print("Ahora me llamo",p.name)
 
 print()
-print("Ahora vamos a ver como crear listas de nombres")
+dummy=input("Ahora vamos a ver como crear listas de nombres")
 #Podemos crear listas de nombres
 chico = Person('Adán')
 chica = Person('Eva')
 
 lista_obj = [chico,chica]
+
+
 print(lista_obj)
+dummy=input("Esto es la lista, con dos objetos")
+
+dummy=input("Ahora vamos a jugar con el contenido de la lista"
+            )
 
 print(lista_obj[0].name,"y",lista_obj[1].name,"se encontraron en la calle y se miraron...")
 
-dummy=input()
+dummy=input("")
 
 class Pareja:
     def __init__(self):
@@ -56,3 +63,5 @@ par.flechazo(lista_obj[0].name,lista_obj[1].name)
 par.matrimonio("Pérez")
 
 
+
+dummy=input()
