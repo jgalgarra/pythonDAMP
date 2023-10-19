@@ -47,4 +47,3 @@ ani = animation.FuncAnimation(fig, funcion, np.arange(1, frames), init_func=init
                           interval=speed, blit=True)
 plt.show()
 
-funcion = animate_sin_wave
